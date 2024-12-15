@@ -706,6 +706,133 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "NixieSupply5vto170vDCMBoostMini-rescue:+160V"
 			(power)
 			(pin_names
@@ -7941,6 +8068,148 @@
 		)
 	)
 	(symbol
+		(lib_id "NixieSupply5vto170vDCMBoostMini-rescue:+160V")
+		(at 84.455 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c502435-7fb9-4486-ae06-3917b222de6a")
+		(property "Reference" "#PWR047"
+			(at 84.455 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+170V"
+			(at 84.455 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 84.455 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 84.455 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 84.455 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e232a8c5-d915-4d4f-a2f1-5e1e431304b6")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 170.815 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f68138f-32f4-4ff0-81ca-049a1be00aef")
+		(property "Reference" "R16"
+			(at 172.72 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10.5k"
+			(at 172.72 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 170.815 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Vishay-Intertech-CRCW080510K5FKEA_C2093736.html"
+			(at 170.815 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 170.815 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2093736"
+			(at 170.815 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edcac035-e07e-4e4c-9855-926af976e330")
+		)
+		(pin "2"
+			(uuid "4c8ce34a-8661-4ff5-ab59-8b27aaf15a05")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 26.035 186.69 270)
 		(unit 1)
@@ -8243,6 +8512,69 @@
 			(project "nixieclock"
 				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NixieSupply5vto170vDCMBoostMini-rescue:+160V")
+		(at 213.36 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3213a8ba-b811-4e89-89a4-1b97a80b3840")
+		(property "Reference" "#PWR050"
+			(at 213.36 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+170V"
+			(at 213.36 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a46a74a6-d89d-4064-b937-c5e1729cd7bd")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8843,7 +9175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 163.322 135.89 90)
 			(effects
 				(font
@@ -8852,7 +9184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRC0603F6343TS_C2999499.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_LIZ-Elec-CR1206F46343G_C3037408.html"
 			(at 165.1 135.89 0)
 			(effects
 				(font
@@ -8888,7 +9220,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2999499"
+		(property "LCSC Part" "C3037408"
 			(at 165.1 135.89 0)
 			(effects
 				(font
@@ -8907,6 +9239,85 @@
 			(project "nixieclock"
 				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 41.275 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43caebd2-2ae3-40a9-a430-86442a5db6f0")
+		(property "Reference" "R1"
+			(at 43.18 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10.5k"
+			(at 43.18 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 41.275 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Vishay-Intertech-CRCW080510K5FKEA_C2093736.html"
+			(at 41.275 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 41.275 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2093736"
+			(at 41.275 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d2afd24-ed53-41a3-af90-67fe3e25493d")
+		)
+		(pin "2"
+			(uuid "76c6c432-d7a8-4657-a2ab-9b1b4ff4c26d")
+		)
+		(instances
+			(project ""
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9194,6 +9605,85 @@
 			(project "nixieclock"
 				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 127.635 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b5bcd04-1484-4905-820f-8a0828635cf2")
+		(property "Reference" "R15"
+			(at 129.54 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10.5k"
+			(at 129.54 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 127.635 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Vishay-Intertech-CRCW080510K5FKEA_C2093736.html"
+			(at 127.635 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 127.635 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2093736"
+			(at 127.635 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e960a67-b2ae-4847-a01c-ea1efda29cc8")
+		)
+		(pin "2"
+			(uuid "838f69e4-e004-44d0-aacc-ff2675703b68")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -10011,6 +10501,148 @@
 		)
 	)
 	(symbol
+		(lib_id "NixieSupply5vto170vDCMBoostMini-rescue:+160V")
+		(at 170.815 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "601ee377-2f2f-4afd-84ed-9d21a42aa9f5")
+		(property "Reference" "#PWR049"
+			(at 170.815 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+170V"
+			(at 170.815 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.815 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.815 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.815 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26c59b47-30ee-48d8-bcf7-bff646607624")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 213.36 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60231efc-d12e-4bdd-9f8b-6667924dcd6f")
+		(property "Reference" "R17"
+			(at 215.9 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10.5k"
+			(at 215.9 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 213.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Vishay-Intertech-CRCW080510K5FKEA_C2093736.html"
+			(at 213.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 213.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2093736"
+			(at 213.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72afe907-b46b-4690-a201-6c5ec3679f2d")
+		)
+		(pin "2"
+			(uuid "a96af9c3-1550-41ec-b5a9-1bddee0b6845")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 107.315 72.39 0)
 		(unit 1)
@@ -10510,6 +11142,69 @@
 		)
 	)
 	(symbol
+		(lib_id "NixieSupply5vto170vDCMBoostMini-rescue:+160V")
+		(at 41.275 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "752f72c1-1cca-4186-8bf1-3af4c439d73d")
+		(property "Reference" "#PWR046"
+			(at 41.275 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+170V"
+			(at 41.275 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.275 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.275 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 41.275 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95ecf170-c0f5-49d7-ab2a-bbe7962726e2")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 175.26 137.16 0)
 		(unit 1)
@@ -10676,6 +11371,69 @@
 			(project "nixieclock"
 				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NixieSupply5vto170vDCMBoostMini-rescue:+160V")
+		(at 256.54 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7af6039a-58ba-4729-811f-590cfc7c04e5")
+		(property "Reference" "#PWR051"
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+170V"
+			(at 256.54 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a93e6209-0603-430e-b950-958eb02e2077")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -12001,6 +12759,69 @@
 		)
 	)
 	(symbol
+		(lib_id "NixieSupply5vto170vDCMBoostMini-rescue:+160V")
+		(at 127.635 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abb31c20-a04e-486b-82b0-5d8088dd4192")
+		(property "Reference" "#PWR048"
+			(at 127.635 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+170V"
+			(at 127.635 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127.635 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127.635 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127.635 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0927701-9503-4f1a-b65d-d8d73ee51314")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "k155Id1:K155NA1")
 		(at 40.005 66.04 270)
 		(mirror x)
@@ -12201,7 +13022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 163.322 147.32 90)
 			(effects
 				(font
@@ -12210,7 +13031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF7681T5E_C23102.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_LIZ-Elec-CR1206F47681G_C3037264.html"
 			(at 165.1 147.32 0)
 			(effects
 				(font
@@ -12246,7 +13067,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23102"
+		(property "LCSC Part" "C3037264"
 			(at 165.1 147.32 0)
 			(effects
 				(font
@@ -13253,6 +14074,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 84.455 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd2760e5-bc46-4a94-8760-7829104f8c49")
+		(property "Reference" "R14"
+			(at 86.36 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10.5k"
+			(at 86.36 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 84.455 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Vishay-Intertech-CRCW080510K5FKEA_C2093736.html"
+			(at 84.455 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 84.455 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2093736"
+			(at 84.455 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a253316b-0f21-4713-a9f0-b66bf9d340a3")
+		)
+		(pin "2"
+			(uuid "2b0bf1a9-052b-443a-9803-bbf1a4631908")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NixieSupply5vto170vDCMBoostMini-rescue:GND-power")
 		(at 121.92 143.51 0)
 		(unit 1)
@@ -13973,6 +14873,85 @@
 			(project ""
 				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 256.54 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb252957-c3cd-490c-ab02-bdd4fe7fe3cc")
+		(property "Reference" "R18"
+			(at 259.08 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10.5k"
+			(at 259.08 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 256.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Vishay-Intertech-CRCW080510K5FKEA_C2093736.html"
+			(at 256.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 256.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2093736"
+			(at 256.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbb9d294-f634-464e-a56e-3632ce8a4386")
+		)
+		(pin "2"
+			(uuid "ecd3989e-2156-48a8-8bd0-fd8d928f9993")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "R18")
 					(unit 1)
 				)
 			)
