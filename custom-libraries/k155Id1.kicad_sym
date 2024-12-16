@@ -2230,7 +2230,7 @@
 			)
 		)
 		(property "Value" "K155NA1"
-			(at 0 -15.24 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,8 +2275,8 @@
 		)
 		(symbol "K155NA1_0_1"
 			(rectangle
-				(start -10.16 -13.97)
-				(end 10.16 13.97)
+				(start -10.16 13.97)
+				(end 5.08 -13.97)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2288,16 +2288,16 @@
 		)
 		(symbol "K155NA1_1_1"
 			(pin input line
-				(at -15.24 11.43 0)
+				(at -15.24 3.81 0)
 				(length 5.08)
-				(name "A"
+				(name "D"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2306,25 +2306,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 8.89 0)
-				(length 5.08)
-				(name "B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 6.35 0)
+				(at -15.24 1.27 0)
 				(length 5.08)
 				(name "C"
 					(effects
@@ -2342,16 +2324,34 @@
 				)
 			)
 			(pin input line
-				(at -15.24 3.81 0)
+				(at -15.24 -1.27 0)
 				(length 5.08)
-				(name "D"
+				(name "B"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -3.81 0)
+				(length 5.08)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2396,7 +2396,25 @@
 				)
 			)
 			(pin output line
-				(at 15.24 11.43 180)
+				(at 10.16 11.43 180)
+				(length 5.08)
+				(name "0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 8.89 180)
 				(length 5.08)
 				(name "9"
 					(effects
@@ -2414,7 +2432,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 8.89 180)
+				(at 10.16 6.35 180)
 				(length 5.08)
 				(name "8"
 					(effects
@@ -2432,7 +2450,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 6.35 180)
+				(at 10.16 3.81 180)
 				(length 5.08)
 				(name "7"
 					(effects
@@ -2450,7 +2468,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 3.81 180)
+				(at 10.16 1.27 180)
 				(length 5.08)
 				(name "6"
 					(effects
@@ -2468,7 +2486,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 1.27 180)
+				(at 10.16 -1.27 180)
 				(length 5.08)
 				(name "5"
 					(effects
@@ -2486,7 +2504,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 -1.27 180)
+				(at 10.16 -3.81 180)
 				(length 5.08)
 				(name "4"
 					(effects
@@ -2504,7 +2522,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 -3.81 180)
+				(at 10.16 -6.35 180)
 				(length 5.08)
 				(name "3"
 					(effects
@@ -2522,7 +2540,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 -6.35 180)
+				(at 10.16 -8.89 180)
 				(length 5.08)
 				(name "2"
 					(effects
@@ -2540,7 +2558,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 -8.89 180)
+				(at 10.16 -11.43 180)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -2550,24 +2568,6 @@
 					)
 				)
 				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 15.24 -11.43 180)
-				(length 5.08)
-				(name "0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2671,10 +2671,10 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+					(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
 				)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type solid)
 				)
 				(fill
@@ -2683,10 +2683,10 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
+					(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
 				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type solid)
 				)
 				(fill
@@ -2767,18 +2767,6 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 -2.54) (xy 2.54 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
 					(xy 4.445 -2.54) (xy 5.08 -2.54)
 				)
 				(stroke
@@ -2787,6 +2775,18 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -2.54) (xy 2.54 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
 				)
 			)
 		)
