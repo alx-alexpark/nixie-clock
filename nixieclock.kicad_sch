@@ -4258,6 +4258,18 @@
 		)
 		(uuid "32fbdcaf-be4b-4d98-99b2-c5882ced0ab1")
 	)
+	(text "Nixie Clock"
+		(exclude_from_sim no)
+		(at 192.405 189.865 0)
+		(effects
+			(font
+				(face "FOT-Yuruka Std UB")
+				(size 1.27 1.27)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "7f421a98-7bf3-4aec-bdd8-9d9d10ce1bdb")
+	)
 	(text "OUTPUT SET to 167Volts"
 		(exclude_from_sim no)
 		(at 173.99 124.46 0)
@@ -4743,7 +4755,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.845 137.795) (xy 34.29 137.795)
+			(xy 19.685 137.795) (xy 24.13 137.795)
 		)
 		(stroke
 			(width 0)
@@ -5713,7 +5725,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.845 144.145) (xy 34.29 144.145)
+			(xy 19.685 144.145) (xy 24.13 144.145)
 		)
 		(stroke
 			(width 0)
@@ -5883,7 +5895,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.845 149.86) (xy 34.29 149.86)
+			(xy 19.685 149.86) (xy 24.13 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8677,7 +8689,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 34.29 137.795 0)
+		(at 24.13 137.795 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8686,7 +8698,7 @@
 		(fields_autoplaced yes)
 		(uuid "37ff600d-bb42-424c-a023-2f0e7cbd9d10")
 		(property "Reference" "TP1"
-			(at 38.735 134.9374 0)
+			(at 28.575 134.9374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8695,7 +8707,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 38.735 137.4774 0)
+			(at 28.575 137.4774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8704,7 +8716,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 39.37 137.795 0)
+			(at 29.21 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8713,7 +8725,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 137.795 0)
+			(at 29.21 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8722,7 +8734,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 34.29 137.795 0)
+			(at 24.13 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9398,7 +9410,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 34.29 149.86 0)
+		(at 24.13 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9407,7 +9419,7 @@
 		(fields_autoplaced yes)
 		(uuid "455f46d7-88b9-4d54-8afb-48faa145c04e")
 		(property "Reference" "TP3"
-			(at 38.735 147.0024 0)
+			(at 28.575 147.0024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9416,7 +9428,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 38.735 149.5424 0)
+			(at 28.575 149.5424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9425,7 +9437,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 39.37 149.86 0)
+			(at 29.21 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9434,7 +9446,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 149.86 0)
+			(at 29.21 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9443,7 +9455,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 34.29 149.86 0)
+			(at 24.13 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10120,7 +10132,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.845 149.86 0)
+		(at 19.685 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10129,7 +10141,7 @@
 		(fields_autoplaced yes)
 		(uuid "54fa3264-9724-4e93-bae0-4c9832119881")
 		(property "Reference" "#PWR023"
-			(at 29.845 156.21 0)
+			(at 19.685 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10138,7 +10150,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.845 154.305 0)
+			(at 19.685 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,7 +10158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.845 149.86 0)
+			(at 19.685 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10155,7 +10167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.845 149.86 0)
+			(at 19.685 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10164,7 +10176,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.845 149.86 0)
+			(at 19.685 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12392,7 +12404,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 29.845 137.795 0)
+		(at 19.685 137.795 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12401,7 +12413,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0ee3e49-2363-485c-be04-26bfbf9d4355")
 		(property "Reference" "#PWR011"
-			(at 29.845 141.605 0)
+			(at 19.685 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12410,7 +12422,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 29.845 132.715 0)
+			(at 19.685 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12418,7 +12430,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.845 137.795 0)
+			(at 19.685 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12427,7 +12439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.845 137.795 0)
+			(at 19.685 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12436,7 +12448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 29.845 137.795 0)
+			(at 19.685 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14293,7 +14305,7 @@
 	)
 	(symbol
 		(lib_id "NixieSupply5vto170vDCMBoostMini-rescue:+160V")
-		(at 29.845 144.145 0)
+		(at 19.685 144.145 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14301,7 +14313,7 @@
 		(dnp no)
 		(uuid "ddf186cc-3b95-44f6-b019-6dd26ac6e076")
 		(property "Reference" "#PWR012"
-			(at 29.845 147.955 0)
+			(at 19.685 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14310,7 +14322,7 @@
 			)
 		)
 		(property "Value" "+170V"
-			(at 29.845 140.589 0)
+			(at 19.685 140.589 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14318,7 +14330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.845 144.145 0)
+			(at 19.685 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14326,7 +14338,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.845 144.145 0)
+			(at 19.685 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14334,7 +14346,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.845 144.145 0)
+			(at 19.685 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15164,7 +15176,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 34.29 144.145 0)
+		(at 24.13 144.145 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15173,7 +15185,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef546fc3-aa70-466a-86fa-05c2284522f6")
 		(property "Reference" "TP2"
-			(at 38.735 141.2874 0)
+			(at 28.575 141.2874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15182,7 +15194,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 38.735 143.8274 0)
+			(at 28.575 143.8274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15191,7 +15203,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 39.37 144.145 0)
+			(at 29.21 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15200,7 +15212,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 144.145 0)
+			(at 29.21 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15209,7 +15221,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 34.29 144.145 0)
+			(at 24.13 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
