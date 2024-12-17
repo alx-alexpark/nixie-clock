@@ -1007,6 +1007,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "NixieSupply5vto170vDCMBoostMini-rescue:+160V"
 			(power)
 			(pin_names
@@ -1435,23 +1542,23 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.27 1.905) (xy -3.81 1.905)
-					)
+				(circle
+					(center -1.27 1.905)
+					(radius 0.127)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type solid)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(circle
-					(center -1.27 1.905)
-					(radius 0.127)
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy -3.81 1.905)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type solid)
 					)
 					(fill
@@ -4961,16 +5068,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.685 137.795) (xy 24.13 137.795)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "322226db-2f1e-4178-912b-36c2e2316f6a")
-	)
-	(wire
-		(pts
 			(xy 96.52 179.07) (xy 93.98 179.07)
 		)
 		(stroke
@@ -5991,7 +6088,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.685 144.145) (xy 24.13 144.145)
+			(xy 22.225 142.24) (xy 26.67 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6171,7 +6268,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.685 149.86) (xy 24.13 149.86)
+			(xy 22.225 147.955) (xy 26.67 147.955)
 		)
 		(stroke
 			(width 0)
@@ -7589,7 +7686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "nixies-us:nixies-us-IN-12"
+		(property "Footprint" "nixies-us:nixies-us-IN-12-DSUB"
 			(at 123.825 37.338 0)
 			(effects
 				(font
@@ -7653,6 +7750,71 @@
 			(project "nixieclock"
 				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
 					(reference "NX3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 121.285 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08bb3cbb-4112-462a-8f87-3a7f0aeb5557")
+		(property "Reference" "H1"
+			(at 120.015 97.155 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M2"
+			(at 120.015 99.695 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 121.285 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.285 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 121.285 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c93482d-f37f-44e1-b6da-cc55c95ff1c5")
+		)
+		(instances
+			(project ""
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -7749,6 +7911,102 @@
 			(project "nixieclock"
 				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 227.33 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "0d32c350-b9f5-4d96-86ee-6152c6162631")
+		(property "Reference" "C19"
+			(at 227.965 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF 16v"
+			(at 227.965 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 228.2952 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html"
+			(at 227.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 227.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "KEMET"
+			(at 227.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 227.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b5b5df7-7489-4c10-9e38-a8633b59f1a2")
+		)
+		(pin "2"
+			(uuid "4a39d526-a29b-4f3d-9ab8-eb7c4aa2ecea")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -8624,6 +8882,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 132.08 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f85fb46-5c9e-436f-a9ab-5872d8983a4c")
+		(property "Reference" "#PWR068"
+			(at 132.08 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd49b535-d318-4192-9bd9-d5ba0d914c9d")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 184.15 82.55 0)
 		(unit 1)
@@ -9148,73 +9472,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 24.13 137.795 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37ff600d-bb42-424c-a023-2f0e7cbd9d10")
-		(property "Reference" "TP1"
-			(at 28.575 134.9374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Probe"
-			(at 28.575 137.4774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 29.21 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 24.13 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "468fe625-f9b7-4ac3-9562-2532b19e67a3")
-		)
-		(instances
-			(project ""
-				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "nixies-us:IN-12A")
 		(at 84.455 38.1 90)
 		(unit 1)
@@ -9242,7 +9499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "nixies-us:nixies-us-IN-12"
+		(property "Footprint" "nixies-us:nixies-us-IN-12-DSUB"
 			(at 80.645 37.338 0)
 			(effects
 				(font
@@ -9936,7 +10193,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 24.13 149.86 0)
+		(at 26.67 147.955 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9945,7 +10202,7 @@
 		(fields_autoplaced yes)
 		(uuid "455f46d7-88b9-4d54-8afb-48faa145c04e")
 		(property "Reference" "TP3"
-			(at 28.575 147.0024 0)
+			(at 31.115 145.0974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9954,7 +10211,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 28.575 149.5424 0)
+			(at 31.115 147.6374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9963,7 +10220,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 29.21 149.86 0)
+			(at 31.75 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9972,7 +10229,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 149.86 0)
+			(at 31.75 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9981,7 +10238,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 24.13 149.86 0)
+			(at 26.67 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10754,7 +11011,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 19.685 149.86 0)
+		(at 22.225 147.955 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10763,7 +11020,7 @@
 		(fields_autoplaced yes)
 		(uuid "54fa3264-9724-4e93-bae0-4c9832119881")
 		(property "Reference" "#PWR023"
-			(at 19.685 156.21 0)
+			(at 22.225 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10772,7 +11029,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.685 154.305 0)
+			(at 22.225 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10780,7 +11037,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.685 149.86 0)
+			(at 22.225 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10789,7 +11046,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.685 149.86 0)
+			(at 22.225 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10798,7 +11055,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.685 149.86 0)
+			(at 22.225 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11735,7 +11992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "nixies-us:nixies-us-IN-12"
+		(property "Footprint" "nixies-us:nixies-us-IN-12-DSUB"
 			(at 167.005 37.338 0)
 			(effects
 				(font
@@ -12038,6 +12295,72 @@
 			(project "nixieclock"
 				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 227.33 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ee1594b-07dd-4435-b4ae-c238d45a4828")
+		(property "Reference" "#PWR011"
+			(at 227.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 227.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 227.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70281f52-835d-4d63-8fd1-16679ead3bd9")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -12677,6 +13000,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 123.825 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e73d15d-3592-4bb5-9d7a-9bfa9d42026e")
+		(property "Reference" "#PWR067"
+			(at 123.825 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.825 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.825 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.825 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.825 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b03c335-a91f-4220-9046-7645d0987477")
+		)
+		(instances
+			(project ""
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Filled")
 		(at 41.91 95.885 90)
 		(unit 1)
@@ -13074,7 +13463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "nixies-us:nixies-us-IN-12"
+		(property "Footprint" "nixies-us:nixies-us-IN-12-DSUB"
 			(at 252.73 37.338 0)
 			(effects
 				(font
@@ -13267,7 +13656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "nixies-us:nixies-us-IN-12"
+		(property "Footprint" "nixies-us:nixies-us-IN-12-DSUB"
 			(at 209.55 37.338 0)
 			(effects
 				(font
@@ -13955,72 +14344,6 @@
 			(project "nixieclock"
 				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 19.685 137.795 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0ee3e49-2363-485c-be04-26bfbf9d4355")
-		(property "Reference" "#PWR011"
-			(at 19.685 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 19.685 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.685 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.685 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 19.685 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "faaaa04c-7ffd-417f-8e45-a98ed9c1b7d7")
-		)
-		(instances
-			(project "nixieclock"
-				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -15924,6 +16247,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 129.54 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca621f4b-4321-49c9-a05d-0e300e875e63")
+		(property "Reference" "H2"
+			(at 128.27 97.155 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M2"
+			(at 128.27 99.695 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 129.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 129.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a53777c-2d39-4585-958c-bbc2c369abc5")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 279.4 118.11 0)
 		(mirror y)
@@ -16371,6 +16759,69 @@
 		)
 	)
 	(symbol
+		(lib_id "NixieSupply5vto170vDCMBoostMini-rescue:GND-power")
+		(at 227.33 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d95b44bf-e777-4336-882e-30228338a766")
+		(property "Reference" "#PWR066"
+			(at 227.33 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35720bc9-e917-4cca-9122-d2d8603f0a09")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 274.32 67.31 0)
 		(unit 1)
@@ -16438,7 +16889,7 @@
 	)
 	(symbol
 		(lib_id "NixieSupply5vto170vDCMBoostMini-rescue:+160V")
-		(at 19.685 144.145 0)
+		(at 22.225 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16446,7 +16897,7 @@
 		(dnp no)
 		(uuid "ddf186cc-3b95-44f6-b019-6dd26ac6e076")
 		(property "Reference" "#PWR012"
-			(at 19.685 147.955 0)
+			(at 22.225 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16455,7 +16906,7 @@
 			)
 		)
 		(property "Value" "+170V"
-			(at 19.685 140.589 0)
+			(at 22.225 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16463,7 +16914,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.685 144.145 0)
+			(at 22.225 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16471,7 +16922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.685 144.145 0)
+			(at 22.225 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16479,7 +16930,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 19.685 144.145 0)
+			(at 22.225 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17309,7 +17760,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 24.13 144.145 0)
+		(at 26.67 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17318,7 +17769,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef546fc3-aa70-466a-86fa-05c2284522f6")
 		(property "Reference" "TP2"
-			(at 28.575 141.2874 0)
+			(at 31.115 139.3824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17327,7 +17778,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 28.575 143.8274 0)
+			(at 31.115 141.9224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17336,7 +17787,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 29.21 144.145 0)
+			(at 31.75 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17345,7 +17796,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 144.145 0)
+			(at 31.75 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17354,7 +17805,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 24.13 144.145 0)
+			(at 26.67 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17675,7 +18126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "nixies-us:nixies-us-IN-12"
+		(property "Footprint" "nixies-us:nixies-us-IN-12-DSUB"
 			(at 37.465 37.338 0)
 			(effects
 				(font
