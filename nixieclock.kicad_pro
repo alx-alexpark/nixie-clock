@@ -51,10 +51,20 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [
         [
           "lib_footprint_mismatch|197205000|118655000|481e8d2c-7bf8-4baf-8c85-4e1e5d384701|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "missing_footprint|0|0|00000000-0000-0000-0000-000000000000|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -189,7 +199,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.254,
+        0.35,
+        0.4
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -216,7 +231,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {

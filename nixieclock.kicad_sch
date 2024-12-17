@@ -582,6 +582,180 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_Filled"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Filled_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "LED_Filled_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1261,23 +1435,23 @@
 						(type none)
 					)
 				)
-				(circle
-					(center -1.27 1.905)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -1.27 1.905) (xy -3.81 1.905)
 					)
 					(stroke
 						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 1.905)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
 						(type solid)
 					)
 					(fill
@@ -4288,6 +4462,12 @@
 		(uuid "03d0ca95-629e-41ac-8682-9419cc9fa40a")
 	)
 	(junction
+		(at 40.005 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13a2f03a-9b0d-4647-af93-9eacd5e0e060")
+	)
+	(junction
 		(at 143.51 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4450,6 +4630,12 @@
 		(uuid "c47a30d7-c1a7-49d9-a749-8e736c63d804")
 	)
 	(junction
+		(at 40.005 92.075)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca234eca-5f98-435c-8e79-76b8d3ffba9d")
+	)
+	(junction
 		(at 138.43 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4486,31 +4672,31 @@
 		(uuid "ecbb7960-ba30-4b45-bfa7-0e9797498edc")
 	)
 	(no_connect
-		(at 268.605 121.285)
+		(at 267.335 113.03)
 		(uuid "12441574-1c9d-4618-b74c-99b03730d476")
 	)
 	(no_connect
-		(at 253.365 161.925)
+		(at 252.095 153.67)
 		(uuid "155d8bb7-8288-4104-9057-b867dc5bdf7e")
 	)
 	(no_connect
-		(at 248.285 161.925)
+		(at 247.015 153.67)
 		(uuid "2177399a-0565-497c-8b06-b528ec265fe9")
 	)
 	(no_connect
-		(at 268.605 111.125)
+		(at 267.335 102.87)
 		(uuid "48fa9b24-0b27-48da-ae84-4cbf246f9ffd")
 	)
 	(no_connect
-		(at 250.825 161.925)
+		(at 249.555 153.67)
 		(uuid "523fc69f-e827-4d92-9006-f6d89172d0e9")
 	)
 	(no_connect
-		(at 268.605 133.985)
+		(at 267.335 125.73)
 		(uuid "7e931a3c-b82c-4271-ae3b-ffe0e777d06f")
 	)
 	(no_connect
-		(at 268.605 116.205)
+		(at 267.335 107.95)
 		(uuid "ca51b809-77bb-4434-ad99-7cd92c3cddbc")
 	)
 	(wire
@@ -4585,7 +4771,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 151.765) (xy 233.045 151.765)
+			(xy 219.71 143.51) (xy 231.775 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4695,6 +4881,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 102.87) (xy 100.965 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22a43f58-cf7b-4b82-b901-e15eedd7af86")
+	)
+	(wire
+		(pts
 			(xy 80.01 127) (xy 88.9 127)
 		)
 		(stroke
@@ -4712,6 +4908,16 @@
 			(type default)
 		)
 		(uuid "26cef760-d3d6-423a-8e63-00a7de12f6be")
+	)
+	(wire
+		(pts
+			(xy 38.1 100.33) (xy 38.1 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "284c2c72-d99b-40a9-b155-c6d101a34c18")
 	)
 	(wire
 		(pts
@@ -4785,7 +4991,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 126.365) (xy 233.045 126.365)
+			(xy 219.71 118.11) (xy 231.775 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4825,7 +5031,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 139.065) (xy 268.605 139.065)
+			(xy 279.4 130.81) (xy 267.335 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4855,7 +5061,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.145 118.745) (xy 268.605 118.745)
+			(xy 269.875 110.49) (xy 267.335 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5035,7 +5241,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 139.065) (xy 233.045 139.065)
+			(xy 219.71 130.81) (xy 231.775 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5075,6 +5281,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 92.075) (xy 40.005 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673ad936-56cc-458a-8a15-0677bfb50cfe")
+	)
+	(wire
+		(pts
 			(xy 97.79 152.4) (xy 92.71 152.4)
 		)
 		(stroke
@@ -5085,7 +5301,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.145 108.585) (xy 268.605 108.585)
+			(xy 269.875 100.33) (xy 267.335 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5155,7 +5371,17 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 113.665) (xy 268.605 113.665)
+			(xy 101.6 104.14) (xy 101.6 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71dc30d0-2c56-48be-8cc6-575340dc843e")
+	)
+	(wire
+		(pts
+			(xy 279.4 105.41) (xy 267.335 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5165,7 +5391,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 113.665) (xy 233.045 113.665)
+			(xy 219.71 105.41) (xy 231.775 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5272,6 +5498,16 @@
 			(type default)
 		)
 		(uuid "899daafa-bbc3-405b-aa9c-dd027a737843")
+	)
+	(wire
+		(pts
+			(xy 41.91 105.41) (xy 40.005 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89da7008-5583-4abe-9bbf-cf4a4d6a88ee")
 	)
 	(wire
 		(pts
@@ -5415,6 +5651,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.725 102.87) (xy 81.915 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a95ccee9-1ee1-4b09-a1b1-2a8b099ef6b3")
+	)
+	(wire
+		(pts
 			(xy 158.75 127) (xy 161.29 127)
 		)
 		(stroke
@@ -5495,7 +5741,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 151.765) (xy 268.605 151.765)
+			(xy 279.4 143.51) (xy 267.335 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5505,13 +5751,23 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 126.365) (xy 268.605 126.365)
+			(xy 279.4 118.11) (xy 267.335 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b4cd7363-4801-461e-b7e7-874484984e0b")
+	)
+	(wire
+		(pts
+			(xy 40.005 92.075) (xy 41.91 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71a2998-de3c-4313-b72d-f9f326f68d6d")
 	)
 	(wire
 		(pts
@@ -5695,6 +5951,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 100.33) (xy 41.91 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d107fa4f-95a3-4d59-9db0-f18c6199bc28")
+	)
+	(wire
+		(pts
 			(xy 96.52 173.99) (xy 96.52 179.07)
 		)
 		(stroke
@@ -5815,6 +6081,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 105.41) (xy 40.005 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e970b0d8-6a9d-497b-9632-93df08f181be")
+	)
+	(wire
+		(pts
 			(xy 92.71 152.4) (xy 92.71 160.02)
 		)
 		(stroke
@@ -5925,7 +6201,7 @@
 	)
 	(global_label "GPIO18"
 		(shape input)
-		(at 268.605 149.225 0)
+		(at 267.335 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5935,7 +6211,7 @@
 		)
 		(uuid "070cf7cc-84f4-4311-956d-93b9873a3591")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.4845 149.225 0)
+			(at 277.2145 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5947,7 +6223,7 @@
 	)
 	(global_label "GPIO21"
 		(shape input)
-		(at 268.605 141.605 0)
+		(at 267.335 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5957,7 +6233,7 @@
 		)
 		(uuid "07b270cd-ae55-43ed-8540-00b14f130b9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.4845 141.605 0)
+			(at 277.2145 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6057,7 +6333,7 @@
 	)
 	(global_label "GPIO6"
 		(shape input)
-		(at 233.045 128.905 180)
+		(at 231.775 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6067,7 +6343,7 @@
 		)
 		(uuid "20e5036b-ec5f-4e2d-865f-a1539e66c4af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.375 128.905 0)
+			(at 223.105 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6079,7 +6355,7 @@
 	)
 	(global_label "GPIO10"
 		(shape input)
-		(at 233.045 141.605 180)
+		(at 231.775 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6089,7 +6365,7 @@
 		)
 		(uuid "22b39768-439d-4bb8-9853-bfa264904d24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.1655 141.605 0)
+			(at 221.8955 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6101,7 +6377,7 @@
 	)
 	(global_label "GPIO1"
 		(shape input)
-		(at 233.045 111.125 180)
+		(at 231.775 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6111,7 +6387,7 @@
 		)
 		(uuid "25dc1751-652f-4654-8398-56c48a382608")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.375 111.125 0)
+			(at 223.105 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6189,7 +6465,7 @@
 	)
 	(global_label "GPIO17"
 		(shape input)
-		(at 268.605 154.305 0)
+		(at 267.335 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6199,7 +6475,7 @@
 		)
 		(uuid "473d117c-05c1-4801-9e60-d7aed382e555")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.4845 154.305 0)
+			(at 277.2145 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6211,7 +6487,7 @@
 	)
 	(global_label "GPIO27"
 		(shape input)
-		(at 268.605 128.905 0)
+		(at 267.335 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6221,7 +6497,7 @@
 		)
 		(uuid "4945aab7-33dc-4906-8f9c-5ac19c50f5ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.4845 128.905 0)
+			(at 277.2145 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6233,7 +6509,7 @@
 	)
 	(global_label "GPIO19"
 		(shape input)
-		(at 268.605 146.685 0)
+		(at 267.335 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6243,7 +6519,7 @@
 		)
 		(uuid "49b33879-3508-49cf-8113-7ca87899cec3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.4845 146.685 0)
+			(at 277.2145 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6255,7 +6531,7 @@
 	)
 	(global_label "GPIO20"
 		(shape input)
-		(at 268.605 144.145 0)
+		(at 267.335 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6265,7 +6541,7 @@
 		)
 		(uuid "4ef0caa4-b528-4483-b5f0-a9e5c78238d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.4845 144.145 0)
+			(at 277.2145 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6277,7 +6553,7 @@
 	)
 	(global_label "GPIO4"
 		(shape input)
-		(at 233.045 121.285 180)
+		(at 231.775 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6287,7 +6563,7 @@
 		)
 		(uuid "5099dbd8-7a35-4d9c-bb79-1cf8324bd6cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.375 121.285 0)
+			(at 223.105 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,7 +6575,7 @@
 	)
 	(global_label "GPIO12"
 		(shape input)
-		(at 233.045 146.685 180)
+		(at 231.775 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6309,7 +6585,7 @@
 		)
 		(uuid "600cbc50-3364-493b-a1cf-f8b8a902a519")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.1655 146.685 0)
+			(at 221.8955 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6321,7 +6597,7 @@
 	)
 	(global_label "GPIO13"
 		(shape input)
-		(at 233.045 149.225 180)
+		(at 231.775 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6331,7 +6607,7 @@
 		)
 		(uuid "63d2abec-7007-4f24-9476-ae401d412594")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.1655 149.225 0)
+			(at 221.8955 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6365,7 +6641,7 @@
 	)
 	(global_label "GPIO15"
 		(shape input)
-		(at 233.045 156.845 180)
+		(at 231.775 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6375,7 +6651,7 @@
 		)
 		(uuid "658bfce2-3aee-4a64-ba97-26ef58b87461")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.1655 156.845 0)
+			(at 221.8955 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6475,7 +6751,7 @@
 	)
 	(global_label "GPIO16"
 		(shape input)
-		(at 268.605 156.845 0)
+		(at 267.335 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6485,7 +6761,7 @@
 		)
 		(uuid "7fe9d027-d138-4b4f-aafc-52e4d6f4aefa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.4845 156.845 0)
+			(at 277.2145 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6517,9 +6793,31 @@
 			)
 		)
 	)
+	(global_label "GPIO28"
+		(shape input)
+		(at 24.765 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "867aa5ab-2341-4bcb-b903-bd6dfae58627")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.8855 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO26"
 		(shape input)
-		(at 268.605 131.445 0)
+		(at 267.335 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6529,7 +6827,7 @@
 		)
 		(uuid "919f8ec6-08d5-4065-b501-d7e58d1469c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.4845 131.445 0)
+			(at 277.2145 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6541,7 +6839,7 @@
 	)
 	(global_label "GPIO5"
 		(shape input)
-		(at 233.045 123.825 180)
+		(at 231.775 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6551,7 +6849,7 @@
 		)
 		(uuid "92cb2920-edbd-457f-b87a-fa38d11a6619")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.375 123.825 0)
+			(at 223.105 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6563,7 +6861,7 @@
 	)
 	(global_label "GPIO22"
 		(shape input)
-		(at 268.605 136.525 0)
+		(at 267.335 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6573,7 +6871,7 @@
 		)
 		(uuid "9ae6c10e-d17e-40f7-9271-f66c186e9837")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.4845 136.525 0)
+			(at 277.2145 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6585,7 +6883,7 @@
 	)
 	(global_label "GPIO9"
 		(shape input)
-		(at 233.045 136.525 180)
+		(at 231.775 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6595,7 +6893,7 @@
 		)
 		(uuid "9f99a750-0d8a-495d-9f52-548579c86095")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.375 136.525 0)
+			(at 223.105 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6651,7 +6949,7 @@
 	)
 	(global_label "GPIO3"
 		(shape input)
-		(at 233.045 118.745 180)
+		(at 231.775 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6661,7 +6959,7 @@
 		)
 		(uuid "ae809bb3-defd-477e-aa63-9a583bd6b309")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.375 118.745 0)
+			(at 223.105 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6673,7 +6971,7 @@
 	)
 	(global_label "GPIO28"
 		(shape input)
-		(at 268.605 123.825 0)
+		(at 267.335 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6683,7 +6981,7 @@
 		)
 		(uuid "b09f6c12-e003-4e1b-8349-19d7093d129a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.4845 123.825 0)
+			(at 277.2145 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6717,7 +7015,7 @@
 	)
 	(global_label "GPIO8"
 		(shape input)
-		(at 233.045 133.985 180)
+		(at 231.775 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6727,7 +7025,7 @@
 		)
 		(uuid "b8c9078a-0a1b-4708-bb36-d4147de1b252")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.375 133.985 0)
+			(at 223.105 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,7 +7037,7 @@
 	)
 	(global_label "GPIO11"
 		(shape input)
-		(at 233.045 144.145 180)
+		(at 231.775 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6749,7 +7047,7 @@
 		)
 		(uuid "c0c0c289-5d2e-4ceb-9b89-2bc5d7c592f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.1655 144.145 0)
+			(at 221.8955 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6783,7 +7081,7 @@
 	)
 	(global_label "GPIO2"
 		(shape input)
-		(at 233.045 116.205 180)
+		(at 231.775 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6793,7 +7091,7 @@
 		)
 		(uuid "cd6d7ba9-ced9-4c88-9e45-eab62c81d66c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.375 116.205 0)
+			(at 223.105 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,7 +7103,7 @@
 	)
 	(global_label "GPIO7"
 		(shape input)
-		(at 233.045 131.445 180)
+		(at 231.775 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6815,7 +7113,7 @@
 		)
 		(uuid "cdb1cec6-9418-498c-b133-26a783951ae1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.375 131.445 0)
+			(at 223.105 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6959,7 +7257,7 @@
 	)
 	(global_label "GPIO14"
 		(shape input)
-		(at 233.045 154.305 180)
+		(at 231.775 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6969,7 +7267,7 @@
 		)
 		(uuid "ed801ceb-68e2-48f0-9e0e-36f4fab61ddb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.1655 154.305 0)
+			(at 221.8955 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7023,7 +7321,7 @@
 	)
 	(global_label "GPIO0"
 		(shape input)
-		(at 233.045 108.585 180)
+		(at 231.775 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7033,7 +7331,7 @@
 		)
 		(uuid "f9c08ffd-53ac-4685-a3ce-0655c588477a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.375 108.585 0)
+			(at 223.105 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7534,7 +7832,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 271.145 108.585 0)
+		(at 269.875 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7543,7 +7841,7 @@
 		(fields_autoplaced yes)
 		(uuid "0feba2b7-f1e8-44e6-a879-5961d574e741")
 		(property "Reference" "#PWR032"
-			(at 271.145 112.395 0)
+			(at 269.875 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7552,7 +7850,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 271.145 104.14 0)
+			(at 269.875 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7560,7 +7858,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.145 108.585 0)
+			(at 269.875 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7569,7 +7867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.145 108.585 0)
+			(at 269.875 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7578,7 +7876,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 271.145 108.585 0)
+			(at 269.875 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8326,6 +8624,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 184.15 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2611a00c-13e2-4bf6-b7b3-edc89ce2af2a")
+		(property "Reference" "C18"
+			(at 184.785 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF 16v"
+			(at 184.785 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 185.1152 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html"
+			(at 184.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 184.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "KEMET"
+			(at 184.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 184.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66802b6b-9623-4e8e-887f-87f6858e07a6")
+		)
+		(pin "2"
+			(uuid "01f593ea-214a-4b62-9182-8a4394f67dd0")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NixieSupply5vto170vDCMBoostMini-rescue:GND-power")
 		(at 144.78 172.72 0)
 		(unit 1)
@@ -8597,6 +8991,72 @@
 			(project "nixieclock"
 				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 184.15 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37c39edc-70b7-4727-b3f8-a84e2c297a14")
+		(property "Reference" "#PWR060"
+			(at 184.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 184.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc0526da-c57b-492e-bb51-2bdab1591aa2")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -8909,6 +9369,72 @@
 			(project "nixieclock"
 				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 81.915 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b71d4c8-fa13-4a9d-8c16-2a229acb4624")
+		(property "Reference" "#PWR052"
+			(at 81.915 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 81.915 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.915 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.915 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 81.915 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3242129-6361-4747-af1b-c5563e6079e7")
+		)
+		(instances
+			(project ""
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -9533,6 +10059,102 @@
 			(project "nixieclock"
 				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 270.51 83.185 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a21d123-18e0-40e9-834f-a861a9a4f541")
+		(property "Reference" "C20"
+			(at 271.145 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF 16v"
+			(at 271.145 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 271.4752 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html"
+			(at 270.51 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 270.51 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "KEMET"
+			(at 270.51 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 270.51 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "887ff3d8-16a1-4dd7-afcc-64e3c1f027d5")
+		)
+		(pin "2"
+			(uuid "d899ae43-cf1f-4eb2-b018-ade353a2d9b2")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -10197,6 +10819,69 @@
 		)
 	)
 	(symbol
+		(lib_id "NixieSupply5vto170vDCMBoostMini-rescue:GND-power")
+		(at 98.425 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58205daf-635a-4fae-875f-7b218d0f153f")
+		(property "Reference" "#PWR057"
+			(at 98.425 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 98.425 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 98.425 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 98.425 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 98.425 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d955e29-0515-4fd4-925d-97ec31b594f7")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 73.66 137.16 0)
 		(unit 1)
@@ -10665,6 +11350,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 97.155 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "648887d5-3d7e-4b44-842f-e39e76ef7dfa")
+		(property "Reference" "R19"
+			(at 97.155 104.902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 97.155 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 97.155 101.092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.html"
+			(at 97.155 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.155 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 97.155 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Yageo"
+			(at 97.155 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C21190"
+			(at 97.155 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "669025d6-bab1-47df-9821-4212be88ea6a")
+		)
+		(pin "2"
+			(uuid "81a73b38-dd2b-4492-b3d6-3d126b6bc0cf")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 107.315 67.31 0)
 		(unit 1)
@@ -10732,7 +11511,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 151.765 0)
+		(at 219.71 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10741,7 +11520,7 @@
 		(fields_autoplaced yes)
 		(uuid "661195fb-93c2-484a-acff-a9c9808e6d4d")
 		(property "Reference" "#PWR027"
-			(at 220.98 158.115 0)
+			(at 219.71 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10750,7 +11529,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 156.21 0)
+			(at 219.71 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10758,7 +11537,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 151.765 0)
+			(at 219.71 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10767,7 +11546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 151.765 0)
+			(at 219.71 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10776,7 +11555,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 151.765 0)
+			(at 219.71 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10798,7 +11577,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 126.365 0)
+		(at 219.71 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10807,7 +11586,7 @@
 		(fields_autoplaced yes)
 		(uuid "69bfe035-377f-4715-9471-0f6224e9ca6b")
 		(property "Reference" "#PWR025"
-			(at 220.98 132.715 0)
+			(at 219.71 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10816,7 +11595,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 130.81 0)
+			(at 219.71 122.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10824,7 +11603,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 126.365 0)
+			(at 219.71 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10833,7 +11612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 126.365 0)
+			(at 219.71 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10842,7 +11621,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 126.365 0)
+			(at 219.71 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10857,6 +11636,72 @@
 			(project "nixieclock"
 				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.005 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69e59760-8693-494f-9f2a-ef29d93498ee")
+		(property "Reference" "#PWR063"
+			(at 40.005 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.005 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.005 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.005 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.005 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7f94eda-f779-4c7b-a8b3-4ffa3fdd877b")
+		)
+		(instances
+			(project ""
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -10960,6 +11805,151 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 41.91 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bbe422d-8eeb-421f-9fa1-2c3639127cf4")
+		(property "Reference" "R20"
+			(at 44.45 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "140"
+			(at 44.45 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 41.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRC0603F1400TS_C2974027.html"
+			(at 41.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 41.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2974027"
+			(at 41.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06503ebd-685a-4390-a520-6a023c5b11c2")
+		)
+		(pin "2"
+			(uuid "9fe1aa24-491d-477a-bd3f-f0ee4caf6dfc")
+		)
+		(instances
+			(project ""
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 270.51 79.375 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cdbc56f-c106-4a14-b7ee-125b2ebd73ab")
+		(property "Reference" "#PWR064"
+			(at 270.51 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 270.51 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 270.51 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dd18d3f-5eda-42a8-a904-f33518ecfdd8")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 66.04 140.97 180)
 		(unit 1)
@@ -11048,6 +12038,168 @@
 			(project "nixieclock"
 				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 98.425 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fceeddc-ed2b-47f5-b06c-866f159810b5")
+		(property "Reference" "C16"
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF 16v"
+			(at 99.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 99.3902 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html"
+			(at 98.425 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 98.425 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 98.425 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "KEMET"
+			(at 98.425 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 98.425 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8961786-dde9-4bdc-9bb4-7da91800b8a7")
+		)
+		(pin "2"
+			(uuid "8d99fc2e-7b50-422d-9649-d02a319d7ede")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 55.245 78.105 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71384e1a-2479-49ea-b3a3-3c4500f04a03")
+		(property "Reference" "#PWR055"
+			(at 55.245 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 55.245 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.245 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.245 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 55.245 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8adf4671-b346-4ee2-8ddc-84f94ab0a656")
+		)
+		(instances
+			(project ""
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -11462,6 +12614,146 @@
 		)
 	)
 	(symbol
+		(lib_id "NixieSupply5vto170vDCMBoostMini-rescue:GND-power")
+		(at 141.605 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d824a2b-0246-45b9-a619-420c076daba2")
+		(property "Reference" "#PWR059"
+			(at 141.605 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 141.605 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.605 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 141.605 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 141.605 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d9f2158-7d37-4ac0-a60c-dda8febdd0f7")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Filled")
+		(at 41.91 95.885 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "803819aa-2de1-45c9-8050-438019c44867")
+		(property "Reference" "D5"
+			(at 45.72 96.2024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Filled"
+			(at 45.72 98.7424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 41.91 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/LED-Indication-Discrete_Foshan-NationStar-Optoelectronics-NCD0805R1_C84256.html"
+			(at 41.91 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, filled shape"
+			(at 41.91 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C84256"
+			(at 41.91 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b803ead4-9bfc-4dba-9d71-d57cc801c887")
+		)
+		(pin "2"
+			(uuid "37b97b64-df54-41be-87fb-46ee5a7602a9")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 180.34 137.16 0)
 		(unit 1)
@@ -11852,6 +13144,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 55.245 81.915 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8abfb22c-6041-4f37-8326-4ff8e1902892")
+		(property "Reference" "C15"
+			(at 55.88 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF 16v"
+			(at 55.88 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 56.2102 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html"
+			(at 55.245 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.245 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 55.245 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "KEMET"
+			(at 55.245 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 55.245 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc6c54cd-9ac0-4718-9f4f-97d71a1116e4")
+		)
+		(pin "2"
+			(uuid "515c2888-1be5-4d99-a846-efdf22fafcd8")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "nixies-us:IN-12A")
 		(at 213.36 38.1 90)
 		(unit 1)
@@ -12184,6 +13572,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:SS8050")
+		(at 37.465 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "980b675d-d6bb-4f99-9215-efdf6f831003")
+		(property "Reference" "Q4"
+			(at 42.545 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS8050"
+			(at 42.545 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 42.545 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
+			(at 42.545 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
+			(at 71.501 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d10214ed-20f4-4273-b857-2ba056333fe0")
+		)
+		(pin "3"
+			(uuid "7830d3d0-3971-4dac-8f4d-926dac9adc01")
+		)
+		(pin "2"
+			(uuid "e011fc82-6fc6-464d-8c6a-a9a148d581ab")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:MMBT3904")
 		(at 45.72 181.61 0)
 		(unit 1)
@@ -12403,6 +13867,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 28.575 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ec3e192-4040-44f0-8615-d64022d7ab85")
+		(property "Reference" "R21"
+			(at 28.575 112.522 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 28.575 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 28.575 108.712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.html"
+			(at 28.575 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 28.575 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 28.575 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "Yageo"
+			(at 28.575 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C21190"
+			(at 28.575 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fde54a2e-33e8-4afc-9dfb-f819900de8ef")
+		)
+		(pin "2"
+			(uuid "15b84c59-cb3c-4989-ba41-863c0faaa965")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 19.685 137.795 0)
 		(unit 1)
@@ -12463,6 +14021,135 @@
 			(project "nixieclock"
 				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NixieSupply5vto170vDCMBoostMini-rescue:GND-power")
+		(at 184.15 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1cd84b3-a67f-44fe-aacc-c291709ac092")
+		(property "Reference" "#PWR061"
+			(at 184.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a9eecbd-a115-44e4-a88f-9d0f12f6da2a")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 98.425 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a369cacc-859f-4152-b32e-74422fb8604a")
+		(property "Reference" "#PWR056"
+			(at 98.425 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 98.425 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 98.425 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 98.425 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 98.425 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "381f477c-8a2d-496f-8e5f-42e3fcaa670f")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -12599,7 +14286,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 280.67 139.065 0)
+		(at 279.4 130.81 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12608,7 +14295,7 @@
 		(dnp no)
 		(uuid "aa7f3521-6db7-442a-bdfd-cb45f7e1f046")
 		(property "Reference" "#PWR029"
-			(at 280.67 145.415 0)
+			(at 279.4 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12617,7 +14304,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 280.67 143.51 0)
+			(at 279.4 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12625,7 +14312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 139.065 0)
+			(at 279.4 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12634,7 +14321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 139.065 0)
+			(at 279.4 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12643,7 +14330,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 280.67 139.065 0)
+			(at 279.4 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12955,7 +14642,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 113.665 0)
+		(at 219.71 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12964,7 +14651,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae2dd5fd-2519-4d96-a770-75b7f3b8eef9")
 		(property "Reference" "#PWR024"
-			(at 220.98 120.015 0)
+			(at 219.71 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12973,7 +14660,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 118.11 0)
+			(at 219.71 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12981,7 +14668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 113.665 0)
+			(at 219.71 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12990,7 +14677,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 113.665 0)
+			(at 219.71 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12999,7 +14686,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 113.665 0)
+			(at 219.71 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13115,7 +14802,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 280.67 113.665 0)
+		(at 279.4 105.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13125,7 +14812,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0b91663-a619-4a8c-b39a-621a45e81c01")
 		(property "Reference" "#PWR028"
-			(at 280.67 120.015 0)
+			(at 279.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13134,7 +14821,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 280.67 118.11 0)
+			(at 279.4 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13142,7 +14829,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 113.665 0)
+			(at 279.4 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13151,7 +14838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 113.665 0)
+			(at 279.4 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13160,7 +14847,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 280.67 113.665 0)
+			(at 279.4 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13650,6 +15337,69 @@
 		)
 	)
 	(symbol
+		(lib_id "NixieSupply5vto170vDCMBoostMini-rescue:GND-power")
+		(at 55.245 85.725 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0b0cf01-c1ab-42fa-bf4a-0a766be68d8a")
+		(property "Reference" "#PWR054"
+			(at 55.245 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.245 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.245 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.245 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.245 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e0b7992-c299-4f8f-8b21-d3befd9e7a35")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NixieSupply5vto170vDCMBoostMini-rescue:L")
 		(at 132.08 127 270)
 		(unit 1)
@@ -13808,7 +15558,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 271.145 118.745 0)
+		(at 269.875 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13816,7 +15566,7 @@
 		(dnp no)
 		(uuid "c67bc513-4dda-48e0-854e-83f4a44be282")
 		(property "Reference" "#PWR033"
-			(at 271.145 122.555 0)
+			(at 269.875 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13825,7 +15575,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 271.5216 115.2771 0)
+			(at 270.2516 107.0221 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13833,7 +15583,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.145 118.745 0)
+			(at 269.875 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13842,7 +15592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.145 118.745 0)
+			(at 269.875 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13851,7 +15601,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 271.145 118.745 0)
+			(at 269.875 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14029,8 +15779,153 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 38.1 102.87 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7bfbe7a-fa17-45a5-b423-461ceb7eaa9f")
+		(property "Reference" "R22"
+			(at 35.56 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "140"
+			(at 35.56 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 38.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRC0603F1400TS_C2974027.html"
+			(at 38.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 38.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2974027"
+			(at 38.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e63f93f1-dc3b-485b-b55b-a7b59a1175c8")
+		)
+		(pin "2"
+			(uuid "d29d3cc5-69ce-437f-b65b-5e40b4399e6c")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 141.605 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca3ee5bc-56fc-42ca-aaa3-9ffa4da53bf2")
+		(property "Reference" "#PWR058"
+			(at 141.605 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 141.605 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.605 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 141.605 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 141.605 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0eb4e9d6-1213-4e3a-aca2-231b7530054b")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 280.67 126.365 0)
+		(at 279.4 118.11 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14040,7 +15935,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc21d3f7-5735-4824-a579-963230e819ef")
 		(property "Reference" "#PWR030"
-			(at 280.67 132.715 0)
+			(at 279.4 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14049,7 +15944,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 280.67 130.81 0)
+			(at 279.4 122.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14057,7 +15952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 126.365 0)
+			(at 279.4 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14066,7 +15961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 126.365 0)
+			(at 279.4 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14075,7 +15970,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 280.67 126.365 0)
+			(at 279.4 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14175,6 +16070,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 141.605 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce460e14-1a33-4f17-9e3e-ce0353607ea7")
+		(property "Reference" "C17"
+			(at 142.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF 16v"
+			(at 142.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 142.5702 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html"
+			(at 141.605 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 141.605 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 141.605 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAN" "KEMET"
+			(at 141.605 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 141.605 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d3b9b24-01da-4252-ad0d-7830c5bb2256")
+		)
+		(pin "2"
+			(uuid "8f390f4c-237d-4071-80c5-50c4312d1db4")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NixieSupply5vto170vDCMBoostMini-rescue:GND-power")
 		(at 121.92 143.51 0)
 		(unit 1)
@@ -14232,6 +16223,148 @@
 			(project "nixieclock"
 				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 40.005 92.075 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d76dc37d-9514-496e-8428-d28246bb6cf5")
+		(property "Reference" "#PWR062"
+			(at 40.005 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 40.005 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.005 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.005 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 40.005 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "775b11ce-6be4-46fe-aef4-07b692b85419")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Filled")
+		(at 89.535 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d844d1b8-bb1a-44e4-adbe-5fef0a50519c")
+		(property "Reference" "D3"
+			(at 91.1225 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green LED"
+			(at 91.1225 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 89.535 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/LED-Indication-Discrete_Hubei-KENTO-Elec-KT-0805G_C2297.html"
+			(at 89.535 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, filled shape"
+			(at 89.535 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2297"
+			(at 89.535 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31e7c9f5-6079-4426-b498-fe812c45b78d")
+		)
+		(pin "2"
+			(uuid "4a2573fe-79bf-4be1-a409-14f7beeadde2")
+		)
+		(instances
+			(project ""
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -14711,7 +16844,7 @@
 	)
 	(symbol
 		(lib_id "RPi_Pico:PicoW")
-		(at 250.825 132.715 0)
+		(at 249.555 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14720,7 +16853,7 @@
 		(fields_autoplaced yes)
 		(uuid "e97ced1e-8ae3-4e3b-847a-7eacf56672b3")
 		(property "Reference" "U3"
-			(at 250.825 101.6 0)
+			(at 249.555 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14728,7 +16861,7 @@
 			)
 		)
 		(property "Value" "PicoW"
-			(at 250.825 104.14 0)
+			(at 249.555 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14736,7 +16869,7 @@
 			)
 		)
 		(property "Footprint" "RPi_Pico:RPi_PicoW_SMD_TH"
-			(at 250.825 132.715 90)
+			(at 249.555 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14745,7 +16878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.825 132.715 0)
+			(at 249.555 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14754,7 +16887,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.825 132.715 0)
+			(at 249.555 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14981,7 +17114,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 139.065 0)
+		(at 219.71 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14990,7 +17123,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec43c442-cd68-4237-a9b2-0f4a7548af56")
 		(property "Reference" "#PWR026"
-			(at 220.98 145.415 0)
+			(at 219.71 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14999,7 +17132,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 143.51 0)
+			(at 219.71 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15007,7 +17140,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 139.065 0)
+			(at 219.71 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15016,7 +17149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 139.065 0)
+			(at 219.71 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15025,7 +17158,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 139.065 0)
+			(at 219.71 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15243,16 +17376,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 280.67 151.765 0)
-		(mirror y)
+		(at 101.6 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f17bf335-6306-4577-8860-8a93b87e2c15")
-		(property "Reference" "#PWR031"
-			(at 280.67 158.115 0)
+		(fields_autoplaced yes)
+		(uuid "f0e9fe50-08e8-4a98-b700-c8eaea110e82")
+		(property "Reference" "#PWR053"
+			(at 101.6 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15261,7 +17394,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 280.67 156.21 0)
+			(at 101.6 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15269,7 +17402,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 151.765 0)
+			(at 101.6 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15278,7 +17411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 151.765 0)
+			(at 101.6 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15287,7 +17420,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 280.67 151.765 0)
+			(at 101.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2143a631-862a-4cd6-a80b-a24e117d5158")
+		)
+		(instances
+			(project ""
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 279.4 143.51 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f17bf335-6306-4577-8860-8a93b87e2c15")
+		(property "Reference" "#PWR031"
+			(at 279.4 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.4 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 279.4 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15302,6 +17501,147 @@
 			(project "nixieclock"
 				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NixieSupply5vto170vDCMBoostMini-rescue:GND-power")
+		(at 270.51 86.995 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2c1dc5d-e68e-479a-993c-5658196b7212")
+		(property "Reference" "#PWR065"
+			(at 270.51 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "502bdd3f-4e47-4d5b-b4c3-0816df319670")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Filled")
+		(at 38.1 95.885 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4dc7fb4-4275-40c5-b920-880b2f162064")
+		(property "Reference" "D4"
+			(at 34.29 96.2024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Filled"
+			(at 34.29 98.7424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 38.1 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/LED-Indication-Discrete_Foshan-NationStar-Optoelectronics-NCD0805R1_C84256.html"
+			(at 38.1 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, filled shape"
+			(at 38.1 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C84256"
+			(at 38.1 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0afdbc59-7c83-45b3-ac54-fbc2347596de")
+		)
+		(pin "2"
+			(uuid "4e7affe9-35ca-44f7-8308-b1b4198ed714")
+		)
+		(instances
+			(project "nixieclock"
+				(path "/759fcb6c-ac94-4637-b56d-cf280a6a09b1"
+					(reference "D4")
 					(unit 1)
 				)
 			)
