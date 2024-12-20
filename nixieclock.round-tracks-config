@@ -1,0 +1,4 @@
+Default	True	2.0	3
+HV	True	2.0	3
+HV-lenient	True	2.0	3
+False	True	False
